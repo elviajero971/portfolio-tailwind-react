@@ -85,8 +85,8 @@ export default {
           "html/css"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://elviajerodelcampo.fr/",
-        linkGitHub: "",
+        linkToProjectView: "http://nomadev.fun/api-breakingbad/",
+        linkGitHub: "https://github.com/elviajero971/breaking-bad-api-react/",
       },
       {
         title: "API Amiibos",
@@ -96,8 +96,8 @@ export default {
           "html/css"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "https://cat-store-thp.herokuapp.com/",
-        linkGitHub: "",
+        linkToProjectView: "http://nomadev.fun/api-amiibos/",
+        linkGitHub: "https://github.com/elviajero971/list-icon-amiibo-api",
       },
     ]},
 

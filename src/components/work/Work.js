@@ -14,7 +14,7 @@ function Work(){
     return (
         <div className="min-h-screen" id="mywork">
             <h1 className="text-5xl mx-auto font-bold pt-6">My projects</h1>
-            <Swiper tag="section" wrapperTag="ul" navigation pagination slideToClickedSlide={true} loop="true">
+            <Swiper tag="section" wrapperTag="ul" navigation pagination loop="true">
 
             {content.work.data.map(
                 (link, index) => {
