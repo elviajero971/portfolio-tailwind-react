@@ -85,7 +85,7 @@ export default {
           "html/css"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://nomadev.fun/api-breakingbad/",
+        linkToProjectView: "http://pi.nomadev.fun/api-breakingbad/",
         linkGitHub: "https://github.com/elviajero971/breaking-bad-api-react/",
       },
       {
@@ -96,7 +96,7 @@ export default {
           "html/css"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://nomadev.fun/api-amiibos/",
+        linkToProjectView: "http://pi.nomadev.fun/api-amiibos/",
         linkGitHub: "https://github.com/elviajero971/list-icon-amiibo-api",
       },
     ]},
