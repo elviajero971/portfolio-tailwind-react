@@ -35,7 +35,7 @@ function Work(){
                     )}
                 </div>
                         <div>
-                        <button href={link.linkToProjectView} class="font-bold text-xl mb-2">{content.work.buttonMore.text}</button>
+                        <a href={link.linkToProjectView} class="font-bold text-xl mb-2">{content.work.buttonMore.text}</a>
                         <a href={link.linkGitHub}>
                             <img src={content.work.logo.github}>
 
