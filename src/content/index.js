@@ -2,48 +2,61 @@ export default {
     nav: {
       logo: process.env.PUBLIC_URL + '/img/nomadev.png',
       links: [
-        { text: 'My Projects', to: 'mywork' },
+        { text: 'Mes projets', to: 'mywork' },
         { text: 'Contact', to: 'mycontact' }
       ],
     },
     header: {
       img:
         'https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80',
-      text: ['Hi!', "It's me Random.", 'I am '],
+      text: ['Bonjour à toi ami recruteur!', "C'est moi Lucas", ''],
       typical: [
-        'web developer. 🖥',
+        'Je cherche un premier emploi comme développeur web junior',
         2000,
-        'Youtuber. 📹',
-        2000,
-        'Mobile Developer',
-        2000,
+        'Je suis à Montpellier',
+        2500,
+        'Je suis un passionné de ponctuation...',
+        3000,
       ],
-      btnText: 'Discover More',
+      btnText: 'En savoir plus',
     },
   
     stack: {
-      title: 'Stack',
+      title: "Technologies que j'affectionne",
       tech: [
         {
-          img: process.env.PUBLIC_URL + '/img/mongodb.jpg',
+          img: process.env.PUBLIC_URL + '/img/mongo.png',
           alt: 'mongodb',
         },
         {
-          img: process.env.PUBLIC_URL + '/img/react.png',
+          img: process.env.PUBLIC_URL + '/img/react.svg',
           alt: 'react',
         },
         {
-          img: process.env.PUBLIC_URL + '/img/nodejs.png',
+          img: process.env.PUBLIC_URL + '/img/node.png',
           alt: 'nodejs',
         },
         {
           img: process.env.PUBLIC_URL + '/img/ruby-on-rails.png',
           alt: 'ruby-on-rails',
         },
+        {
+          img: process.env.PUBLIC_URL + '/img/github-lg.png',
+          alt: 'github',
+        },
+        {
+          img: process.env.PUBLIC_URL + '/img/symfony.png',
+          alt: 'symfony',
+        },
+        {
+          img: process.env.PUBLIC_URL + '/img/raspberry.png',
+          alt: 'raspberry',
+        }
       ],
       desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
     },
     work: {
+      title: "Mes projets",
       buttonMore: {
         text: "Voir le projet"
       },
@@ -54,8 +67,6 @@ export default {
       {
         title: "Whiteboard",
         technos: [
-          "html/css",
-          "ruby",
           "rails",
           "postgresql",
           "bootstrap"
@@ -67,8 +78,6 @@ export default {
       {
         title: "CatStore",
         technos: [
-          "html/css",
-          "ruby",
           "rails",
           "postgresql",
           "bootstrap"
@@ -81,47 +90,57 @@ export default {
         title: "API Breaking Bad",
         technos: [
           "react",
-          "api",
-          "html/css"
+          "api"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://nomadev.fun/api-breakingbad/",
+        linkToProjectView: "./breakingbad/",
         linkGitHub: "https://github.com/elviajero971/breaking-bad-api-react/",
       },
       {
         title: "API Amiibos",
         technos: [
           "react",
-          "api",
-          "html/css"
+          "api"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://nomadev.fun/api-amiibos/",
+        linkToProjectView: "https://github.com/elviajero971/list-icon-amiibo-api",
         linkGitHub: "https://github.com/elviajero971/list-icon-amiibo-api",
+      },
+      {
+        title: "Waterworld Theme Park",
+        technos: [
+          "symfony",
+          "bootstrap",
+          "mySQL"
+        ],
+        img: process.env.PUBLIC_URL + '/img/portrait.jpg',
+        linkToProjectView: "https://github.com/elviajero971/waterworld",
+        linkGitHub: "https://github.com/elviajero971/waterworld",
       },
     ]},
 
     contact: {
-      title: 'Ping Me!',
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: 'Contactez-moi!',
+      desc:[
+        "N'hésitez pas de m'envoyer un email",
+        "lucas.illiano@hotmail.com"
+      ]
+    },
+    footer:{
+      title:`© 2021 | nomadev`,
       socials: [
         {
-          alt: 'facebook',
-          img: process.env.PUBLIC_URL + '/img/facebook.png',
+          alt: 'linkedIn',
+          fa_icon: 'faCoffee'
         },
         {
           alt: 'github',
-          img: process.env.PUBLIC_URL + '/img/github.png',
+          fa_icon: 'faCoffee'
         },
         {
           alt: 'link',
-          img: process.env.PUBLIC_URL + '/img/link.png',
-        },
-        {
-          alt: 'gmail',
-          img: process.env.PUBLIC_URL + '/img/gmail.png',
-        },
+          fa_icon: 'faCoffee'
+        }
       ]
-    },
+    }
   };
