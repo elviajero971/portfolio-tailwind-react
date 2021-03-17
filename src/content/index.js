@@ -93,7 +93,7 @@ export default {
           "api"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "./breakingbad/",
+        linkToProjectView: "http://pi.nomadev.fun/breakingbad/",
         linkGitHub: "https://github.com/elviajero971/breaking-bad-api-react/",
       },
       {
