@@ -7,16 +7,3 @@
     width: 90%;
     padding-bottom: 50px;
 }
-
-.swiper-wrapper{
-    padding: 20px;
-}
-
-.swiper-button-prev {
-    position: relative;
-}
-
-.swiper-button-next{
-    position: relative;
-    right: 20px;
-}
