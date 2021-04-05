@@ -4,7 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link as ScrollLink } from 'react-scroll';
 function Stack(){
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center font-dosis pt-32" id="stack">
+        <div className="min-h-screen flex flex-col items-center justify-center font-dosis pt-32" id="mystack">
             <h1 className="text-5xl font-bold">{content.stack.title}</h1>
             <div className="flex flex-wrap justify-center mt-10">
                 {content.stack.tech.map((tech,index)=>{

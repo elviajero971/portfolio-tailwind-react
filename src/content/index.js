@@ -1,7 +1,8 @@
 export default {
     nav: {
-      logo: process.env.PUBLIC_URL + '/img/nomadev.png',
+      logo: process.env.PUBLIC_URL + '/img/terre.svg',
       links: [
+        { text: 'Ma stack', to: 'mystack' },
         { text: 'Mes projets', to: 'mywork' },
         { text: 'Contact', to: 'mycontact' }
       ],
@@ -53,7 +54,7 @@ export default {
           alt: 'raspberry',
         }
       ],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+      desc: `En reconversion professionnel, de professeur de technologie à menuisier d'agencement nautique...`,
     },
     work: {
       title: "Mes projets",
@@ -93,7 +94,7 @@ export default {
           "api"
         ],
         img: process.env.PUBLIC_URL + '/img/portrait.jpg',
-        linkToProjectView: "http://pi.nomadev.fun/breakingbad/",
+        linkToProjectView: "http://www.breakingbad-api.website/",
         linkGitHub: "https://github.com/elviajero971/breaking-bad-api-react/",
       },
       {
